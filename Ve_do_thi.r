@@ -26,3 +26,16 @@ str(GDP)
 #hiển thị tập dữ liệu 
 GDP
 
+plot(x = GDP$"2000",
+     xlab = colnames(GDP),
+     main = "Chi tieu nam 2000"
+)
+
+plot(GDP)
+
+barplot(GDP$"2000",
+        main = "Chi tieu nam 2000",
+        xlab = colnames(GDP), horiz = FALSE
+)
+
+barplot(GDP)
