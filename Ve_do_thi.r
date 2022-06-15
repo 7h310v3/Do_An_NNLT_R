@@ -36,3 +36,8 @@ barplot(GDP$"2000",
         main = "Chi tieu nam 2000",
         xlab = colnames(GDP), horiz = FALSE
 )
+
+barplot(GDP$"2000",
+        main = "Chi tieu nam 2000",
+        xlab = colnames(GDP), horiz = TRUE
+)
