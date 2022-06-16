@@ -194,7 +194,7 @@ ISIT$NewYear
 ISIT$NewYear <- factor(ISIT$NewYear)
 
 #Chapter4
-#Exercise 1. Vi???c s??? d???ng các hàm tapply, sapply và lapply d??? tính nhi???t d??? trung bình m???i tháng.
+#Exercise 1. Viec su dung cac ham tapply, sapply va lapply de tinh nhiet di trung binh moi thang.
 temp <- read.table(file = "Temperature.txt", header = TRUE)
 mean <- matrix(nrow = 16, ncol = 12)
 std <- matrix(nrow = 16, ncol = 12)
@@ -212,12 +212,12 @@ for (i in 1:16) {
   count[i,] = tapply(val$Temperature,
                      val$Month, length)
 }
-#Exercise 2. Vi???c s??? d???ng ch???c nang b???ng cho d??? li???u nhi???t d???.
+#Exercise 2. Viec su dung chuc nang bang cho du lieu nhiet do.
 table(temp$Station)
 table(temp$Year)
 table(temp$Year, temp$Station)
 
-#Chapter 5: Gi???i thi???u v??? các công c??? v??? d??? th??? co b???n
+#Chapter 5: Gioi thieu ve cac cong cu ve do thi co ban
 
 # Sá»­ dá»¥ng táº­p dá»¯ liá»‡u Amphibian_road_Kills.txt Ä‘á»ƒ váº½ biá»ƒu Ä‘á»“
 setwd('D:/R_Project/RBook')
@@ -239,7 +239,7 @@ plot(x=rk$D_PARK,y=rk$TOT_N,
      ylab=" Number of dead animals")
 
 
-#Chapter 6: Vòng l???p và hàm
+#Chapter 6: VÃ²ng láº·p vÃ  hÃ m
 # BÃ i 1:
 
 setwd("D:/R_Project/RBook")
